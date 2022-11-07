@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa talk</title>
+    <title>Welcome to Kokoa Clone</title>
   </head>
   <body>
     <div id="status-bar">
@@ -24,6 +24,25 @@
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
-    <script src="https://kit.fontawesome.com/44b26d44e6.js" crossorigin="anonymous"></script>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">코코아톡 클론에 오신걸 환영합니다</h1>
+      <p class="welcome-header__text">
+        코코아톡 계정이 있으시다면 <b>이메일</b> 또는 <b>전화번호</b>로
+        로그인해주세요
+      </p>
+    </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="이메일 또는 전화번호" />
+      <input type="password" placeholder="비밀번호" />
+      <input type="submit" value="Log In" />
+      <a href="#">아이디 또는 비밀번호를 잊으셨습니까?</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/44b26d44e6.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
