@@ -20,9 +20,9 @@
       <div class="status-bar__column">
         <span>26%</span>
         <!-- Battery Icon -->
-        <i class="fa-solid fa-battery-quarter fa-2x"></i>
+        <i class="fa-solid fa-battery-quarter fa-xl"></i>
         <!-- Lighing Icon -->
-        <i class="fa-solid fa-bolt"> </i>
+        <!-- <i class="fa-solid fa-bolt"> </i> -->
       </div>
     </div>
 
@@ -63,8 +63,11 @@
             </div>
           </div>
           <div class="user-component__column">
-            <span>2</span>
-            <i class="fa-solid fa-chevron-right"></i>
+            <!-- user-component__column을 flex-end로 바꾸어 여기에 영향이 가서 div를 일부러 하나더 만들어 안에 넣어주면 father의 속성에 영향을 받지 않고 좌우로 2> 모양이 가능해짐 -->
+            <div>
+              <span>2</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
           </div>
         </div>
       </div>
@@ -78,7 +81,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification">1</span>
+            <span class="nav__notification badge">1</span>
             <i class="fa-regular fa-comment fa-2x"></i>
           </a>
         </li>
