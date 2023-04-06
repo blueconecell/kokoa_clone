@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+.mobileSize{
+  width: 400px;
+  height:800px;
+  padding:20px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #2fd0a8;
+}
+.header{
+  height: 10%;
+  display: flex;
+  
+}
+.header__column{
+  font-size: 25px;
+  font-weight: bold;
+  width:40%
+}
+
+.musicInfo{
+  height:40%;
+
+}
+.musicInfo__pofile{
+  display: flex;
+  justify-content: left;
+  
+}
+.musicInfo__pofile-img{
+  margin: 0px 10px 10px 0px;
+  width: 150px;
+  height: 150px;
+  background-color: #f7bd1d;
+  border-radius: 10%;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.musicInfo__pofile-img i{
+  font-size: 40px;
+  color: white;
+}
+.musicInfo__pofile-text{
+  font-weight: bold;
+}
+.musicInfo__pofile-title{
+  font-size: 40px;
+  width: 100px;
+}
+.musicInfo__pofile-artist{
+  margin-top: 20px;
+  font-size: 20px;
+}
+.musicInfo__btn{
+  margin-top: 40px;
+  height: 60px;
+  display: flex;
+  text-align: center;
+}
+.musicInfo__btn-column{
+}
+
+.musicInfo__btn-play, .musicInfo__btn-like, .musicInfo__btn-add{
+
+  font-size: 25px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-bottom-width: 5px;
+}
+.musicInfo__btn-play p{
+  margin-bottom: 4px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.musicInfo__btn-play{
+  width:180px;
+  height: 60px;
+}
+.musicInfo__btn-like, .musicInfo__btn-add{
+  width:60px;
+  height: 60px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+
+.musicList{
+  height:60%;
+}
+.musicList__song{
+  display: flex;
+  margin-bottom: 40px;
+}
+.musicList__song-img{
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+.musicList__song-text{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.musicList__song-title{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.musicList__song-artist{
+  font-size: 15px;
+}
+li:first-child .musicList__song-img{
+  background-color: #ff4d00;
+}
+li:nth-child(2) .musicList__song-img{
+  background-color: #f28fff;
+}
+li:nth-child(3) .musicList__song-img{
+  background-color: #1f39ff;
+}
+li:last-child .musicList__song-img{
+  background-color: #31b991;
+}
