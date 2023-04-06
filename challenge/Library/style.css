@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --yellow: #FDCC31;
+  --gray:  #c2c2c2
+}
+.mobileSize{
+  width:400px;
+  height: 800px;
+  padding:10px;
+}
+.header{
+  background-color: var(--yellow);
+  height: 10%;
+  width: 100%;
+  padding: 10px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputBox{
+  width: 350px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 10px 10px 0px var(--gray);
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-right: 10px;
+  color: var(--gray);
+  position: relative;
+  top:-20px;
+  left: 15px;
+}
+.day{
+  height: 280px;
+}
+.day__title, .topAdvantures__title, .popularAuthor__title{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.day__img > img{
+  margin-top: 10px;
+  width: 150px;
+  border-radius: 10px;
+}
+.day__content{
+  position: relative;
+  top: -230px;
+  left: 170px;
+}
+
+.day__content-title{
+  font-size: 20px;
+  margin-bottom: 15px;  
+}
+.day__content-subtitle, .popularAuthor__content-text{
+  font-size: 15px;
+  color: var(--gray);
+    margin-bottom: 15px;
+}
+.day__content-stars, .topAdvantures__content-book-star{
+  color: var(--yellow);
+    margin-bottom: 25px;
+}
+.day__title{
+  margin-top: -5px;
+}
+.day__content-tagbtn, .day__content-booknowbtn{
+  display: flex;
+  background-color: var(--gray);
+  border-radius: 10px;
+  font-size: 13px;
+  width: 80px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.day__content-bookmarkbtn{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+.day__content-booknowbtn{
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  color:white;
+}
+.day__content-group{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+.topAdvantures__content-book-img > img{
+  width: 100px;
+  border-radius: 10px;
+}
+.topAdvantures__content{
+  display: flex;
+  overflow-x: scroll;
+  height: 200px;
+}
+.topAdvantures__content-book{
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.topAdvantures__content-book-star{
+  margin-bottom: 0px;
+}
+.popularAuthor__content-img > img{
+  width: 130px;
+  border-radius: 10px;
+}
+.popularAuthor__content{
+  display: flex;
+}
+.popularAuthor__content-text{
+  margin-left: 15px;
+}
+.popularAuthor__content-text-title{
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: black;
+}
+.popularAuthor__content-text-content{
+  line-height: 20px;
+}
